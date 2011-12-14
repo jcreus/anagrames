@@ -1,0 +1,236 @@
+Traceback (most recent call last):
+  File "sanagram.py", line 42, in <module>
+    print u', '.join(getword(word))
+  File "sanagram.py", line 27, in getword
+    inp = unicode(inp,'utf-8')
+TypeError: decoding Unicode is not supported
+Traceback (most recent call last):
+  File "sanagram.py", line 42, in <module>
+    print u', '.join(getword(word))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position 11: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(" ")[1:]).decode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 10, in <module>
+    word = u' '.join(std.split(u" ")[1:]).decode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 21: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 43, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 34, in getword
+    count = wc(inp)
+  File "sanagram.py", line 24, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 20, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    print word.encode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    print word.decode('utf-8')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 43, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 34, in getword
+    count = wc(inp)
+  File "sanagram.py", line 24, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 20, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 43, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 34, in getword
+    count = wc(inp)
+  File "sanagram.py", line 24, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 20, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 18, in <module>
+    word = unescape(word)
+  File "sanagram.py", line 15, in unescape
+    return re.sub('&(%s);' % '|'.join(name2codepoint),
+NameError: global name 're' is not defined
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 42, in getword
+    count = wc(inp)
+  File "sanagram.py", line 32, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 28, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+  File "sanagram.py", line 20
+    word = unicode(word,'utf-8)
+                              ^
+SyntaxError: EOL while scanning string literal
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print word
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 53, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 43, in getword
+    count = wc(inp)
+  File "sanagram.py", line 33, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 29, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    word = u' '.join(std.split(u" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 21: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    word = u' '.join(std.split(u" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 21: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 20, in <module>
+    word = unicode(word,'utf-8')
+TypeError: decoding Unicode is not supported
+Traceback (most recent call last):
+  File "sanagram.py", line 11, in <module>
+    word = u' '.join(std.split(u" ")[1:])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 21: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 21, in <module>
+    print word
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 42, in getword
+    count = wc(inp)
+  File "sanagram.py", line 32, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 28, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 42, in getword
+    count = wc(inp)
+  File "sanagram.py", line 32, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 28, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 2: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 42, in getword
+    count = wc(inp)
+  File "sanagram.py", line 32, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 28, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 3: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 51, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 42, in getword
+    count = wc(inp)
+  File "sanagram.py", line 32, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 28, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "sanagram.py", line 50, in <module>
+    print u', '.join(getword(word)).encode('utf-8')
+  File "sanagram.py", line 41, in getword
+    count = wc(inp)
+  File "sanagram.py", line 31, in wc
+    if STRIP_UNICODE: st = replace_unicode(st)
+  File "sanagram.py", line 27, in replace_unicode
+    txt = txt.replace(mapa1[x], mapa2[x])
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 5: ordinal not in range(128)
+  File "sanagram.py", line 50
+    prin wc(word)
+          ^
+SyntaxError: invalid syntax
